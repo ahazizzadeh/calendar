@@ -210,7 +210,7 @@ class _CalendarState extends State<CalendarWiget> {
             width: calendarAppointmentDetails.bounds.width,
             height: calendarAppointmentDetails.bounds.height,
             color: appointment.backgroundColor,
-            child: Expanded(
+            child: SizedBox.expand(
               child: ListTile(
                 title: Text(
                   appointment.eventName,
